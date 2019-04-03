@@ -1,0 +1,79 @@
+body{
+    background-image: url(index1.jpg); /* Местоположение фоновой картинки */
+    background-position: center center; /* Фоновое изображение выровнено по центру в горизонтальной и вертикальной плоскостях */
+    background-repeat: no-repeat; /* Фон не повторяется */
+    background-attachment: fixed; /* Фон зафиксирован в области просмотра и потому не двигается, когда высота контента превышает высоту изображения */
+    background-size: cover; /* Это свойство заставляет фон менять масштаб при изменении размеров содержащего его контейнера*/
+    background-color: white; /* Цвет фона, который будет отображаться при загрузке фоновой картинки*/
+}
+
+.programm{
+    background-image: url(programm/2.программы.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;
+}
+
+.theor{
+    background-image: url(theor/3.теория.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white; 
+}
+
+.homework{
+    background-image: url(homework/4.дом.задание.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white; 
+}
+
+.itog{
+    background-image: url(itog/5.итог.контроль.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: white;  
+}
+
+.navbar-nav>li.active>a,
+.navbar-nav>li.active>a:focus,
+.navbar-nav>li.active>a:hover {
+    color: #fff;
+    background-color: #346270;
+}
+
+.navbar-nav>li>a {
+    color: #fff;
+}
+
+.navbar-nav>li>a:hover {
+    background-color: #346270;
+    border-radius: 15px;
+}
+
+.float-lg-right{
+    color: blue;
+    margin-top: -500px;
+}
+
+#container1{
+    margin-top: 50px;
+}
+#container2{
+    margin-top: 70px;
+}
+
+
+
+.clear {
+    clear: both;
+    height: 63PX;
+}
